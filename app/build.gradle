@@ -31,6 +31,19 @@ android {
     kotlinOptions {
         jvmTarget = Versions.kotlinJvmTarget
     }
+    sourceSets {
+        //In a feature set scheme, here we can have our resources grouped by them
+        main {
+            res.srcDirs += [
+                    'src/main/res/main',
+                    'src/main/res/list',
+                    'src/main/res/details'
+            ]
+            java.srcDirs += 'src/main/kotlin'
+        }
+        test.java.srcDirs += 'src/test/kotlin'
+        androidTest.java.srcDirs += 'src/androidTest/kotlin'
+    }
 }
 
 androidExtensions {
