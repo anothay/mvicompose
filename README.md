@@ -13,4 +13,4 @@
 * Koin
 
 #### How it works 
-![](https://https://github.com/rumatu/mvicompose/blob/master/assets/demo.gif)
+![](https://github.com/rumatu/mvicompose/blob/master/assets/demo.gif)
