@@ -2,12 +2,15 @@
 
 # mvicompose
 
-An example app written with using http://jsonplaceholder.typicode.com/ API.
+#### A simple application using http://jsonplaceholder.typicode.com/ API that showing a list of user posts and the number of comments to it. 
 
-Utilises:
+#### Utilises:
 * MVI
 * Kotlin
 * RxJava
 * MVI
 * ViewModels
 * Koin
+
+#### How it works 
+![](https://https://github.com/rumatu/mvicompose/blob/master/assets/demo.gif)
